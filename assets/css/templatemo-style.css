@@ -6,7 +6,7 @@ body {
 }
 
 #page-wraper {
-    background: url(../images/page-bg.jpg) no-repeat center center fixed;
+    background: url(../images/page-bg2.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -363,21 +363,21 @@ button:hover {
 }
 
 .left-image img,
-.right-image img {
+. img {
     border-radius: 5px;
 }
 
-.right-image-post h4,
+.-post h4,
 .left-image-post h4 {
     margin-top: 30px;
 }
 
-.right-image-post p,
+.-post p,
 .left-image-post p {
     margin-top: 20px;
 }
 
-.right-image-post .white-button,
+.-post .white-button,
 .left-image-post .white-button {
     margin-top: 30px;
 }
@@ -704,17 +704,17 @@ section.contact-me {
         left: 0%;
     }
 
-    .right-image-post h4,
+    .-post h4,
     .left-image-post h4 {
         margin-top: 0px;
     }
 
-    .right-image-post p,
+    .-post p,
     .left-image-post p {
         margin-top: 15px;
     }
 
-    .right-image-post .white-button,
+    .-post .white-button,
     .left-image-post .white-button {
         margin-top: 25px;
     }
@@ -791,7 +791,7 @@ section.contact-me {
     .left-image-post img {
         margin-bottom: 30px;
     }
-    .right-image-post img {
+    .-post img {
         margin-top: 30px;
     }
     .isotope-item {
