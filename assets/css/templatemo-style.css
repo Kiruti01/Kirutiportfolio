@@ -13,6 +13,17 @@ body {
     background-size: cover;
     width: 100%;
 }
+.video-container {
+    text-align: center;
+}
+ /* Stick the copyright text to the bottom */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
 
 
 /* Basic */
@@ -801,4 +812,6 @@ section.contact-me {
     .isotope-toolbar {
         margin-bottom: 20px;
     }
+
+    
 }
