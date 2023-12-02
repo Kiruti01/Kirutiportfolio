@@ -490,6 +490,10 @@ button:hover {
     background-image: url(../images/Application\ Migration\ Service.png);
 }
 
+.service-item .f-fourth-service-icon {
+    background-image: url(../images/linkedIn_PNG10.png);
+}
+
 .service-item:hover .third-service-icon {
     background-image: url(../images/third-main-icon.png);
 }
