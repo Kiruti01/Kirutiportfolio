@@ -13,6 +13,26 @@ body {
     background-size: cover;
     width: 100%;
 }
+.text-center h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+.icon-list {
+    margin-top: 20px;
+    font-size: 28px; /* Adjust the font size to make the icons bigger */
+    color: #fff;
+    display: flex; /* Display the icons in a row */
+    align-items: center; /* Align icons vertically in the middle */
+    justify-content: center;
+}
+
+.icon {
+    margin-right: 20px; /* Add spacing between icons */
+    margin-bottom: 10px;
+}
+.email {
+    margin-bottom: 5vh;
+}
 .video-container {
     text-align: center;
 }
@@ -442,6 +462,10 @@ button:hover {
     background-image: url(../images/first-white-icon.png);
 }
 
+.service-item .f-first-service-icon {
+    background-image: url(../images/RDS.png);
+}
+
 .service-item:hover .first-service-icon {
     background-image: url(../images/first-main-icon.png);
 }
@@ -450,12 +474,20 @@ button:hover {
     background-image: url(../images/second-white-icon.png);
 }
 
+.service-item .s-second-service-icon {
+    background-image: url(../images/Virtual\ Private\ Cloud.png);
+}
+
 .service-item:hover .second-service-icon {
     background-image: url(../images/second-main-icon.png);
 }
 
 .service-item .third-service-icon {
     background-image: url(../images/third-white-icon.png);
+}
+
+.service-item .t-third-service-icon {
+    background-image: url(../images/Fargate.png);
 }
 
 .service-item:hover .third-service-icon {
@@ -813,5 +845,16 @@ section.contact-me {
         margin-bottom: 20px;
     }
 
+  
     
-}
+@media screen and (max-width: 768px) {
+    .icon-list {
+        font-size: 24px; /* Decrease font size for smaller screens */
+    }
+
+    .icon {
+        margin-right: 10px; /* Reduce spacing between icons */
+        margin-bottom: 5px; /* Reduce spacing between stacked icons */
+    }
+} 
+} 
